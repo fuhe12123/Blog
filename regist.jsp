@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   </head>  
     
-  <body>  
+  <body background="http://iguide.lvmama.com/uploadfile/2015/0703/201507031135193763.jpg">  
   <center>  
     <div>  
     <h1>注册</h1>  
