@@ -1,8 +1,9 @@
+package bbs.controller;
  import java.io.IOException;
  import java.util.Date;
  import java.util.Vector;
  
- import javax.servlet.ServletException;
+import javax.servlet.ServletException;
  import javax.servlet.http.HttpServlet;
  import javax.servlet.http.HttpServletRequest;
  import javax.servlet.http.HttpServletResponse;
@@ -11,11 +12,16 @@
  import bbs.model.Message;
  
  public class PostMessageServlet extends HttpServlet {
- 	@Override
+ 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
  	public void doGet(HttpServletRequest req, HttpServletResponse resp)
- 		throws ServletException, IOException {
+ 			throws ServletException, IOException {
  		// TODO Auto-generated method stub
-		doPost(req, resp);
+ 		doPost(req, resp);
  	}
  
  	@Override
